@@ -6,11 +6,10 @@
 <title>Marvin the Paranoid Android moans about requests for missing pages</title>
 <!-- <LINK HREF="/style.css" TYPE="text/css" REL="stylesheet"> -->
 </head>
-<body class="missing.topmenu" >
-<center><b>Nothing to see here, Move along. </b></center>
+<body class="missing.topmenu" onload="type_text()">
 <script language="Javascript"><!--
 var tl=new Array(
-"                                                                                                                                                                                                                                                                                                                        ",
+
 "The requested document is no more.",
 'No file found.',
 "Even tried multi.",
@@ -68,8 +67,6 @@ var speed=60;
 var index=0; text_pos=0;
 var str_length=tl[0].length;
 var contents, row;
-setTimeout("type_text()",5000);
-
 
 function type_text()
 {
@@ -115,8 +112,8 @@ command to see the full text or see how to do this yourself.
 </p><p>
 Could not find <tt>http://howto.gp.mines.edu/local-apps/PyXML-0.7.1/xmlproc/catalog-doco.html</tt>.
 </p><p>
-</p>-->
-<center>
+</p>--><center>
+    If you feeel that you reached this page incorrectly send e-mail to marvin&lt;shift 2&gt;royweil.com
 <form onload="type_text()">
 <textarea rows="53" cols="60" wrap="soft">The requested document is no more.
 No file found.
